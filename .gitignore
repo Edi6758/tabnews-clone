@@ -1,0 +1,25 @@
+# Dependências
+/node_modules
+
+# Diretório de build
+/.next
+/out
+
+# Arquivos de ambiente
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos e diretórios temporários
+.DS_Store
+Thumbs.db
+
+# Outros
+.next/cache
+.vercel
