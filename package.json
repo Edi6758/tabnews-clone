@@ -4,13 +4,16 @@
   "description": "Implementação do curso tab news de ponta a ponta",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "editorconfig": "^2.0.0",
     "next": "^13.1.6",
+    "prettier": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
